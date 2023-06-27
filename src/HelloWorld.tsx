@@ -9,6 +9,8 @@ import {
 import {Logo} from './HelloWorld/Logo';
 import {Subtitle} from './HelloWorld/Subtitle';
 import {Title} from './HelloWorld/Title';
+import { NoiseComp } from './HelloWorld/Noise';
+import { Music } from './HelloWorld/Music';
 
 export const HelloWorld: React.FC<{
 	titleText: string;
@@ -46,20 +48,27 @@ export const HelloWorld: React.FC<{
 
 	// A <AbsoluteFill> is just a absolutely positioned <div>!
 	return (
-		<AbsoluteFill style={{backgroundColor: 'white'}}>
+		<AbsoluteFill style={{backgroundColor: 'black'}}>
+			<NoiseComp
+			speed={5}
+			circleRadius={2}
+			maxOffset={47} />
 			<AbsoluteFill style={{opacity}}>
-				<AbsoluteFill style={{transform: `translateY(${logoTranslation}px)`}}>
+				<AbsoluteFill 
+					// style={{transform: `translateY(${logoTranslation}px)`}}
+					>
 					<Logo />
 				</AbsoluteFill>
 				{/* Sequences can shift the time for its children! */}
-				<Sequence from={35}>
+				{/* <Sequence from={35}>
 					<Title titleText={titleText} titleColor={titleColor} />
-				</Sequence>
+				</Sequence> */}
 				{/* The subtitle will only enter on the 75th frame. */}
-				<Sequence from={75}>
+				{/* <Sequence from={75}>
 					<Subtitle />
-				</Sequence>
+				</Sequence> */}
 			</AbsoluteFill>
+			<Music />
 		</AbsoluteFill>
 	);
 };

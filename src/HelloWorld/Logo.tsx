@@ -48,9 +48,11 @@ export const Logo: React.FC = () => {
 		<AbsoluteFill
 			style={{
 				transform: `scale(${scale}) rotate(${logoRotation}deg)`,
+				justifyContent: "center",
+        alignItems: "center",
 			}}
 		>
-			<Arc
+			{/* <Arc
 				rotateProgress={rotationDevelopment}
 				progress={development}
 				rotation={30}
@@ -64,7 +66,7 @@ export const Logo: React.FC = () => {
 				rotateProgress={rotationDevelopment}
 				rotation={-30}
 				progress={development}
-			/>
+			/> */}
 			<Atom scale={rotationDevelopment} />
 		</AbsoluteFill>
 	);
