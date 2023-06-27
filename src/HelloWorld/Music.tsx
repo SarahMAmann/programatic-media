@@ -16,10 +16,7 @@ export const Music: React.FC = () => {
     frame,
     audioData,
     numberOfSamples: 16,
-  }); // [0.22, 0.1, 0.01, 0.01, 0.01, 0.02, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
- 
-  // Render a bar chart for each frequency, the higher the amplitude,
-  // the longer the bar
+  });
   return (
     <div>
       <Audio src={music} />
