@@ -49,7 +49,8 @@ sleep 0.5
 play 36
 sample :ambi_drone, amp: 1
 sleep 1
-play 36```
+play 36
+```
 
 ## Commands To Run:
 
