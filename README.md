@@ -1,12 +1,9 @@
 # Remotion video
 
 <p align="center">
-  <a href="https://github.com/remotion-dev/logo">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.gif">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
+   <img width="635" alt="Screenshot 2023-06-27 at 10 20 36 PM" src="https://github.com/SarahMAmann/programatic-media/assets/38596347/0a8cacd2-e4d3-4703-    9f2f-4adadf9baf92">
     </picture>
-  </a>
 </p>
 
 Welcome to your Remotion project!
