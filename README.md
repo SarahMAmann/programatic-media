@@ -1,8 +1,6 @@
-# Religious Trauma
+A multimedia project generated fully with code using Remotion, Fotor, and Sonic Pi. 
 
 <img src="/public/cover.png" alt="cover image of skull on black static background">
-
-A multimedia project generated fully with code that shows how my brain feels. Built with Remotion, Fotor, and Sonic Pi. 
 
 Sonic Pi code used to generate the audio:
 ```live_loop :guit do
